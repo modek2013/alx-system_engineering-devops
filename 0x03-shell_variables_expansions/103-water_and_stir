@@ -1,0 +1,2 @@
+#!/bin/bash
+printf '%o\n' $(( 5#$( eco $WATER | tr water 01234) + 5#$( echo $ echo $STIR | tr stirr . 0124 ) )) | tr 01234567 bestchol
